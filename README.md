@@ -1,4 +1,4 @@
-# Unit 17 Nosql Homework: Workout Tracker
+# Mongoose-Fitness-Tracker
 ![Fitness Tracker](https://imgur.com/MjmJW4X.jpg)
 
 ## User Story
