@@ -10,14 +10,27 @@ html,
 body,
 .wrapper {
   height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1268&q=80");
+  background-size: cover;
 }
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* background-image: none; */
+  
+}
+
+canvas {
+  background: rgb(255, 255, 255);
+  position:relative;
+  height:500px;
+  width:500px;
+  margin:0 auto;
+  opacity: .9;
 }
 
 nav {
-  background-color: #5793fd;
+  background-color: #000000;
   color: #ffffff;
   height: 80px;
   padding: 10px;
@@ -31,6 +44,8 @@ a:active,
 a:visited {
   text-decoration: none;
   color: inherit;
+  margin: 40px;
+
 }
 
 header {
@@ -42,6 +57,13 @@ header {
 
 header h1 {
   transform: skewX(-2deg);
+}
+
+h1 {
+  background: rgb(255, 255, 255);
+  position:relative;
+  margin:0 auto;
+  color: #050505;
 }
 
 select {
